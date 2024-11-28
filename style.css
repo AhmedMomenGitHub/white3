@@ -1,0 +1,248 @@
+
+.navbar-nav {
+  /* margin-left: auto;
+  margin-right: auto; */
+  gap: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+  z-index: 1;
+  overflow-x: hidden;
+
+  
+}
+body{
+scroll-behavior: smooth;
+overflow-x: hidden;
+}
+
+@font-face {
+font-family: "BlueOcean";
+src: url("BlueOcean.ttf");
+}
+.nav-item a{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  }
+
+
+
+  .scroll{
+    mix-blend-mode: multiply;
+    width: 200px;
+    filter:invert() brightness(300%) saturate(10%);
+    mix-blend-mode: screen;
+  }
+main{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+padding-top: 100px;
+  max-height: 100%;
+  background: linear-gradient(to bottom,rgba(255, 255, 255, 0.85),rgba(75, 180, 245, 0.588)),url(5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+
+}
+
+.section img{
+/* border: 10px solid #0069e1 ; */
+border-radius: 20px;
+}
+.slide img{
+/* border: 10px solid #0070e1 ; */
+border-radius: 20px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main h1{
+font-family:"BlueOcean";
+line-height: 3;
+background: linear-gradient(90deg,#0063c0,rgb(2, 141, 206));
+background-clip: text;
+color: transparent;
+min-height: 3em;
+margin-top: 20px;
+
+
+
+}
+
+section h2{
+font-family:"BlueOcean";
+  background: linear-gradient(90deg,rgb(44, 44, 44),rgb(90, 99, 110));
+  background-clip: text;
+  color: transparent;
+  line-height: 3;
+  overflow: hidden;
+
+}
+
+.btn{
+  padding: 20px;
+}
+
+main p {
+  max-width: 100%;
+  padding: 40px;
+  padding-bottom: 0px;
+  width: 50rem;
+}
+
+
+@media (max-width: 700px) {
+main h1{
+height: 6em;
+}
+}
+@media (max-width: 576px) {
+  .typed-text-container {
+    height: auto; /* ضبط الارتفاع تلقائيًا للشاشات الصغيرة */
+  }
+  .fs-1 {
+    font-size: .2em; /* تعديل حجم الخط للشاشات الصغيرة */
+  }
+}
+.section{
+  height: 100%;
+  padding-block: 50px;
+}
+
+.carousel-inner{
+  text-align: center;
+
+}
+.slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  text-align: center;
+
+}
+.slider img{
+  width: 80rem;
+  max-width: 100%;
+}
+
+
+.navbar-brand{
+padding-left: 20px;
+}
+nav h3{
+font-family:"BlueOcean";
+background: linear-gradient(90deg,#0088e2,rgb(2, 131, 206));
+background-clip: text;
+color: transparent;
+padding-top: 20px;
+
+}
+nav{
+overflow: hidden;
+}
+
+body{
+scroll-behavior: smooth;
+}
+
+
+@media (max-width: 991px) {
+    #reverse {
+      flex-direction: column-reverse;
+    }
+  }
+
+  
+.loading{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#000000;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 15000;
+filter: invert();
+}
+
+.trucks{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 30px;
+
+
+}
+.trucks img{
+width: 50rem;
+max-width: 100%;
+}
+.slide{
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+
+.num-container i{
+rotate: 90deg;
+}
+.num-container{
+display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ background: linear-gradient(90deg,#005eff,rgb(0, 183, 255));
+ border-radius: 30px;
+ color:white;
+}
+.num-container i , .num-container h5{
+font-size: 30px;
+color:white
+
+}
+#whats{
+  background: linear-gradient(90deg,#00ffaa,rgb(0, 130, 73));
+  color: black;
+
+}
+
+
+#lottie-animation {
+width: 100px;
+height: 100px;
+margin: 0 auto;
+}
+
+main a{
+text-decoration: none;
+margin-bottom:40px;
+}
+
+.btn{
+  width: 300px;
+}
+footer .btn{
+  width: 250px;
+}
+button{
+  background: linear-gradient(to bottom,rgba(255, 255, 255, 0.85),rgba(75, 180, 245, 0.588)),url(m2.jpeg);
+
+}
